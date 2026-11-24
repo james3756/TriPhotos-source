@@ -1,0 +1,44 @@
+{
+  "name": "Tri Photos",
+  "identifier": "com.triphotos.source",
+  "subtitle": "Trie ta galerie en swipant",
+  "description": "Trie ta galerie photo et vidéo en swipant : à droite pour garder, à gauche pour le panier, vers le haut pour plus tard. Rien n'est effacé avant ta confirmation, et tout part dans « Supprimés récemment » (récupérable 30 jours).",
+  "iconURL": "https://raw.githubusercontent.com/james3756/TriPhotos-source/main/icon.png",
+  "tintColor": "#7561E6",
+  "apps": [
+    {
+      "name": "Tri Photos",
+      "bundleIdentifier": "com.triphotos.app",
+      "developerName": "Tri Photos",
+      "subtitle": "Garder, jeter, plus tard",
+      "localizedDescription": "Trie ta galerie photo et vidéo en swipant : à droite pour garder, à gauche pour le panier, vers le haut pour plus tard. Rien n'est effacé avant ta confirmation, et tout part dans « Supprimés récemment » (récupérable 30 jours).",
+      "iconURL": "https://raw.githubusercontent.com/james3756/TriPhotos-source/main/icon.png",
+      "tintColor": "#7561E6",
+      "category": "photo-video",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.1.1",
+          "buildVersion": "3",
+          "date": "2026-11-24",
+          "localizedDescription": "Galerie suivie pendant le tri (photo supprimée ailleurs retirée, nouvelle photo ajoutée en fin de file), tri par mois, pastille Rafale, plus de blocage sur « Accès refusé », messages de corbeille en français, astuces pour libérer de la place, sauvegarde plus sûre.",
+          "downloadURL": "https://github.com/james3756/TriPhotos-source/releases/download/v1.1.1/TriPhotos.ipa",
+          "size": 625183,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Tri Photos a besoin d'accéder à ta galerie pour t'afficher tes photos et vidéos et mettre à la corbeille celles que tu veux supprimer."
+        }
+      },
+      "version": "1.1.1",
+      "versionDate": "2026-11-24",
+      "versionDescription": "Galerie suivie pendant le tri (photo supprimée ailleurs retirée, nouvelle photo ajoutée en fin de file), tri par mois, pastille Rafale, plus de blocage sur « Accès refusé », messages de corbeille en français, astuces pour libérer de la place, sauvegarde plus sûre.",
+      "downloadURL": "https://github.com/james3756/TriPhotos-source/releases/download/v1.1.1/TriPhotos.ipa",
+      "size": 625183
+    }
+  ],
+  "news": []
+}
